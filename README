@@ -1,0 +1,4 @@
+The display of facts is added to the status bar by replacing the display of co ordinates display on the extreme right, as the co ordinates are being displayed in one of the on screen labels on the map and i felt its unnecessary to display it again in the status bar.
+Interesting facts regarding the universe are made to display on the right of status bar which makes kstars more interesting and interactive.
+
+patch file(kstar_facts.patch); 'kfacts.cpp','kfacts.h' (required to add to the src/kstars/kstars/kfacts.cpp, kfacts.h)and the 'facts' file which is the database of facts.(may be required to add to inst/master/share/apps/kstars/facts)      
